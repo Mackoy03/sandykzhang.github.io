@@ -1,0 +1,130 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.sidebar-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#face-container {
+    width: 200px;
+    margin: 100px auto;
+}
+
+#face {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sidebar-item {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: grey;
+    margin: 15px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+#face:hover {
+    opacity: 0.9;
+}
+
+.sidebar-item:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.section {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    color: grey;
+}
+
+.text {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#name {
+    color: black;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 10px;
+    margin-top: 150px;
+}
+
+#education {
+    font-size: 30px;
+    margin: 0px 100px;
+}
+
+#description {
+    font-size: 20px;
+    margin: 30px 150px;
+}
+
+#email {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#experience-section {
+    display: none;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.item-container{
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.exp-img {
+    width: 160px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.year {
+    font-style: italic;
+}
+
+#life-section {
+    display: none;
+}
+
+.img-container{
+    display: inline-block;
+}
+
+.img {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    margin-top: 60px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
